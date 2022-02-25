@@ -1,0 +1,96 @@
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url(digital-7.ttf);
+   }
+   @font-face{
+    font-family:'digital';
+    src: url(digital-7\ \(mono\ italic\).ttf);
+   }
+h1{
+    font-family: 'digital-clock-font';
+    color: rgb(119, 217, 246);
+    font-size: 60px;  
+ 
+}
+
+#container{
+    background-color: rgb(10, 45, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(1.jpg);
+   
+}
+#add{
+    font-family: 'digital-clock-font';
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(5, 5, 73);
+}
+#subtract{
+    font-family: 'digital-clock-font';
+    width: 90px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(5, 5, 73);
+}
+#multiply{
+    font-family: 'digital-clock-font';
+    width: 90px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(5, 5, 73);
+}
+#divide{
+    font-family: 'digital-clock-font';
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(5, 5, 73);
+}
+
+#displayResult{
+    font-family: 'digital-clock-font';
+}
+
+.mybtn{
+    padding: 20px;
+    margin:5px;
+}
+input{
+    margin: 2px;
+    padding: 5px;
+}
+
+.displaybox{
+    background-color: rgb(21, 9, 54);
+    height: 80px;
+    width: 200px;
+    margin: 7px;
+    border-radius: 5px;
+}
+.displaybox h3{
+    color: rgb(162, 184, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
